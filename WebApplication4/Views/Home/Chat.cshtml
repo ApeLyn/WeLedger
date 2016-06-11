@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Chat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chat</h2>
+
+<form id="chatform" action="">
+    <input id="inputbox" />
+</form>
+<div id="messages" />
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/Scripts/ChatJS.js")
